@@ -1,0 +1,91 @@
+*{
+    font-family: "Kanit";
+}
+
+.header{
+    background-color: #203337;
+    top: 0;
+   
+}
+
+.header img{
+    margin-left: 10px;
+}
+
+
+.active_nav a{
+    color: orangered !important;
+    font-size: 20px;
+}
+.nav a{
+    color: white;
+    font-size: 20px;
+}
+
+.nav a:hover{
+    color: orangered;
+}
+
+.nav_dd a{
+    color:#203337 !important;
+}
+
+.buynow_btn{
+    border-color: orangered !important;
+    background-color: orangered !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+.buynow_btn:hover{
+    border-color: white !important;
+    background-color: white !important;
+    color: #203337 !important;
+}
+
+.header button{
+    color: white;
+    background-color: orangered;
+
+}
+
+.banner{
+    background: url(images/banner.webp);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.banner h1{
+    color: white;
+    font-weight: 600;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.banner h2{
+    color: orangered;
+    font-size: 50px;
+    
+}
+
+.nav_btn{
+    color: white;
+    background-color: red;
+}
+
+
+/* css for products starts */
+
+.buy_btn{
+    background-color: orangered !important;
+    border: none !important;
+}
+
+.buy_btn button:hover{
+    background-color: blue !important;
+}
+
+/* css for products ends */
